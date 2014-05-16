@@ -1,0 +1,38 @@
+{
+  "name": "athz",
+  "description": "Express authorization module and middleware",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aleksandar-micic/athz",
+  "author": {
+    "name": "Aleksandar Micic",
+    "email": "aleksandar@micic.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aleksandar-micic/athz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aleksandar-micic/athz/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/aleksandar-micic/athz/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/athz",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt simplemocha"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "^0.4.x",
+    "grunt": "~0.4.5",
+    "chai": "^1.9.1"
+  },
+  "keywords": []
+}
