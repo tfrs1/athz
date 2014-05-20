@@ -42,7 +42,7 @@ describe('authorize', function() {
         }
       };
 
-      expect(test(roles, req)).to.throw('Not authorized');
+      expect(test(roles, req)).to.throw('User not authorized');
     });
 
     it('should authorize when user is a member of specified roles', function(done) {
