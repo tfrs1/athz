@@ -97,7 +97,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 0.1.0 - Initial release  
 0.2.0 - Redesign  
-0.2.1 - Now able to authorizes any logged in user (athz.any)
+0.2.1 - Now able to authorize any logged in user (athz.any)
 
 ## License
 Copyright (c) 2014 Aleksandar Micic  
