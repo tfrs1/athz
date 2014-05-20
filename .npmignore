@@ -1,0 +1,7 @@
+.idea
+.gitignore
+.jshintrc
+Gruntfile.js
+test/
+.npmignore
+test.js
