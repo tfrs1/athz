@@ -14,7 +14,7 @@ var express = require('express'),
 app.use(authentication);
 app.use(app.router);
 
-app.get('/', auth('user'), function(req, res) {
+app.get('/', athz('user'), function(req, res) {
     res.render('index');
 });
 
@@ -84,7 +84,6 @@ app.use(err, req, res, next) {
     res.status(403);
     res.send('Not authorized');
   }
-}
 });
 ```
 
@@ -92,7 +91,7 @@ app.use(err, req, res, next) {
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-0.1.0 - Initial release
+0.1.0 - Initial release  
 0.2.0 - Redesign
 
 ## License
