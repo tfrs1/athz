@@ -14,7 +14,7 @@ var express = require('express'),
 app.use(authentication);
 app.use(app.router);
 
-app.get('/', auth('user'), function(req, res) {
+app.get('/', athz('user'), function(req, res) {
     res.render('index');
 });
 
